@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		063EB2902515A8B600C6C889 /* MixerReactModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063EB28F2515A8B600C6C889 /* MixerReactModule.swift */; };
+		063EB2922515A8E300C6C889 /* RNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063EB2912515A8E300C6C889 /* RNViewController.swift */; };
+		063EB2952515A91400C6C889 /* ReactNativeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 063EB2942515A91400C6C889 /* ReactNativeHelper.m */; };
+		063EB2982515A95300C6C889 /* AppNativeEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 063EB2972515A95300C6C889 /* AppNativeEventEmitter.m */; };
+		063EB29A2515A97B00C6C889 /* DataEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063EB2992515A97B00C6C889 /* DataEvent.swift */; };
+		063EB29D2515A9EF00C6C889 /* RNCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 063EB29C2515A9EF00C6C889 /* RNCommon.m */; };
+		063EB2B22515AA9500C6C889 /* Encodable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063EB29F2515AA9400C6C889 /* Encodable+Extension.swift */; };
+		063EB2B32515AA9500C6C889 /* Array+json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063EB2A02515AA9400C6C889 /* Array+json.swift */; };
+		063EB2B42515AA9500C6C889 /* Collection+SafeSubscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063EB2A12515AA9500C6C889 /* Collection+SafeSubscript.swift */; };
+		063EB2B52515AA9500C6C889 /* NSRegularExpressionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063EB2A22515AA9500C6C889 /* NSRegularExpressionExtensions.swift */; };
+		063EB2B62515AA9500C6C889 /* UIDevice+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 063EB2A32515AA9500C6C889 /* UIDevice+Extension.m */; };
+		063EB2B72515AA9500C6C889 /* Double+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063EB2A42515AA9500C6C889 /* Double+Format.swift */; };
+		063EB2B82515AA9500C6C889 /* StoryboardExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063EB2A52515AA9500C6C889 /* StoryboardExtensions.swift */; };
+		063EB2BA2515AA9500C6C889 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063EB2A82515AA9500C6C889 /* UIViewControllerExtensions.swift */; };
+		063EB2BB2515AA9500C6C889 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063EB2A92515AA9500C6C889 /* UIDevice+Extension.swift */; };
+		063EB2BD2515AA9500C6C889 /* UIAlertController+Window.m in Sources */ = {isa = PBXBuildFile; fileRef = 063EB2AB2515AA9500C6C889 /* UIAlertController+Window.m */; };
+		063EB2BE2515AA9500C6C889 /* NSDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 063EB2AC2515AA9500C6C889 /* NSDictionary+Extension.m */; };
+		063EB2BF2515AA9500C6C889 /* Dictionary+json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063EB2AD2515AA9500C6C889 /* Dictionary+json.swift */; };
+		063EB2C12515AA9500C6C889 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063EB2B12515AA9500C6C889 /* StringExtensions.swift */; };
+		063EB2C72515B1D200C6C889 /* JavaScriptExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063EB2C62515B1D200C6C889 /* JavaScriptExecutor.swift */; };
+		063EB2C92515B1F600C6C889 /* JSLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063EB2C82515B1F600C6C889 /* JSLogger.swift */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -18,6 +39,34 @@
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		063EB28E2515A8B500C6C889 /* ReactNativeApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactNativeApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		063EB28F2515A8B600C6C889 /* MixerReactModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixerReactModule.swift; sourceTree = "<group>"; };
+		063EB2912515A8E300C6C889 /* RNViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNViewController.swift; sourceTree = "<group>"; };
+		063EB2932515A91400C6C889 /* ReactNativeHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactNativeHelper.h; sourceTree = "<group>"; };
+		063EB2942515A91400C6C889 /* ReactNativeHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeHelper.m; sourceTree = "<group>"; };
+		063EB2962515A95300C6C889 /* AppNativeEventEmitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppNativeEventEmitter.h; sourceTree = "<group>"; };
+		063EB2972515A95300C6C889 /* AppNativeEventEmitter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppNativeEventEmitter.m; sourceTree = "<group>"; };
+		063EB2992515A97B00C6C889 /* DataEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataEvent.swift; sourceTree = "<group>"; };
+		063EB29B2515A9EF00C6C889 /* RNCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNCommon.h; sourceTree = "<group>"; };
+		063EB29C2515A9EF00C6C889 /* RNCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNCommon.m; sourceTree = "<group>"; };
+		063EB29F2515AA9400C6C889 /* Encodable+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodable+Extension.swift"; sourceTree = "<group>"; };
+		063EB2A02515AA9400C6C889 /* Array+json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+json.swift"; sourceTree = "<group>"; };
+		063EB2A12515AA9500C6C889 /* Collection+SafeSubscript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+SafeSubscript.swift"; sourceTree = "<group>"; };
+		063EB2A22515AA9500C6C889 /* NSRegularExpressionExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSRegularExpressionExtensions.swift; sourceTree = "<group>"; };
+		063EB2A32515AA9500C6C889 /* UIDevice+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Extension.m"; sourceTree = "<group>"; };
+		063EB2A42515AA9500C6C889 /* Double+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Format.swift"; sourceTree = "<group>"; };
+		063EB2A52515AA9500C6C889 /* StoryboardExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardExtensions.swift; sourceTree = "<group>"; };
+		063EB2A72515AA9500C6C889 /* UIAlertController+Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Window.h"; sourceTree = "<group>"; };
+		063EB2A82515AA9500C6C889 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		063EB2A92515AA9500C6C889 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
+		063EB2AB2515AA9500C6C889 /* UIAlertController+Window.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Window.m"; sourceTree = "<group>"; };
+		063EB2AC2515AA9500C6C889 /* NSDictionary+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extension.m"; sourceTree = "<group>"; };
+		063EB2AD2515AA9500C6C889 /* Dictionary+json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+json.swift"; sourceTree = "<group>"; };
+		063EB2AE2515AA9500C6C889 /* NSDictionary+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extension.h"; sourceTree = "<group>"; };
+		063EB2AF2515AA9500C6C889 /* UIDevice+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extension.h"; sourceTree = "<group>"; };
+		063EB2B12515AA9500C6C889 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		063EB2C62515B1D200C6C889 /* JavaScriptExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaScriptExecutor.swift; sourceTree = "<group>"; };
+		063EB2C82515B1F600C6C889 /* JSLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSLogger.swift; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ReactNativeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ReactNativeApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ReactNativeApp/AppDelegate.m; sourceTree = "<group>"; };
@@ -46,9 +95,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		063EB28C2515A87100C6C889 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				063EB2C22515B19B00C6C889 /* Utility */,
+				063EB29E2515AA5100C6C889 /* Extension */,
+				063EB28D2515A8A100C6C889 /* React */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		063EB28D2515A8A100C6C889 /* React */ = {
+			isa = PBXGroup;
+			children = (
+				063EB28F2515A8B600C6C889 /* MixerReactModule.swift */,
+				063EB28E2515A8B500C6C889 /* ReactNativeApp-Bridging-Header.h */,
+				063EB2912515A8E300C6C889 /* RNViewController.swift */,
+				063EB2932515A91400C6C889 /* ReactNativeHelper.h */,
+				063EB2942515A91400C6C889 /* ReactNativeHelper.m */,
+				063EB2962515A95300C6C889 /* AppNativeEventEmitter.h */,
+				063EB2972515A95300C6C889 /* AppNativeEventEmitter.m */,
+				063EB2992515A97B00C6C889 /* DataEvent.swift */,
+				063EB29B2515A9EF00C6C889 /* RNCommon.h */,
+				063EB29C2515A9EF00C6C889 /* RNCommon.m */,
+			);
+			path = React;
+			sourceTree = "<group>";
+		};
+		063EB29E2515AA5100C6C889 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				063EB2A02515AA9400C6C889 /* Array+json.swift */,
+				063EB2A12515AA9500C6C889 /* Collection+SafeSubscript.swift */,
+				063EB2AD2515AA9500C6C889 /* Dictionary+json.swift */,
+				063EB2A42515AA9500C6C889 /* Double+Format.swift */,
+				063EB29F2515AA9400C6C889 /* Encodable+Extension.swift */,
+				063EB2AE2515AA9500C6C889 /* NSDictionary+Extension.h */,
+				063EB2AC2515AA9500C6C889 /* NSDictionary+Extension.m */,
+				063EB2A22515AA9500C6C889 /* NSRegularExpressionExtensions.swift */,
+				063EB2A52515AA9500C6C889 /* StoryboardExtensions.swift */,
+				063EB2B12515AA9500C6C889 /* StringExtensions.swift */,
+				063EB2A72515AA9500C6C889 /* UIAlertController+Window.h */,
+				063EB2AB2515AA9500C6C889 /* UIAlertController+Window.m */,
+				063EB2AF2515AA9500C6C889 /* UIDevice+Extension.h */,
+				063EB2A32515AA9500C6C889 /* UIDevice+Extension.m */,
+				063EB2A92515AA9500C6C889 /* UIDevice+Extension.swift */,
+				063EB2A82515AA9500C6C889 /* UIViewControllerExtensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		063EB2C22515B19B00C6C889 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				063EB2C32515B1A900C6C889 /* JavascriptExecutor */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		063EB2C32515B1A900C6C889 /* JavascriptExecutor */ = {
+			isa = PBXGroup;
+			children = (
+				063EB2C62515B1D200C6C889 /* JavaScriptExecutor.swift */,
+				063EB2C82515B1F600C6C889 /* JSLogger.swift */,
+			);
+			path = JavascriptExecutor;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* ReactNativeApp */ = {
 			isa = PBXGroup;
 			children = (
+				063EB28C2515A87100C6C889 /* Common */,
 				BB2F792B24A3F905000567C9 /* Supporting */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -152,7 +269,7 @@
 				ORGANIZATIONNAME = Study;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1170;
 					};
 				};
 			};
@@ -251,8 +368,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				063EB2C92515B1F600C6C889 /* JSLogger.swift in Sources */,
+				063EB2C12515AA9500C6C889 /* StringExtensions.swift in Sources */,
+				063EB2982515A95300C6C889 /* AppNativeEventEmitter.m in Sources */,
+				063EB2BF2515AA9500C6C889 /* Dictionary+json.swift in Sources */,
+				063EB2C72515B1D200C6C889 /* JavaScriptExecutor.swift in Sources */,
+				063EB2BA2515AA9500C6C889 /* UIViewControllerExtensions.swift in Sources */,
+				063EB2B52515AA9500C6C889 /* NSRegularExpressionExtensions.swift in Sources */,
+				063EB2B32515AA9500C6C889 /* Array+json.swift in Sources */,
+				063EB2922515A8E300C6C889 /* RNViewController.swift in Sources */,
+				063EB2952515A91400C6C889 /* ReactNativeHelper.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				063EB2B62515AA9500C6C889 /* UIDevice+Extension.m in Sources */,
+				063EB29A2515A97B00C6C889 /* DataEvent.swift in Sources */,
+				063EB2B22515AA9500C6C889 /* Encodable+Extension.swift in Sources */,
+				063EB2B72515AA9500C6C889 /* Double+Format.swift in Sources */,
+				063EB2BE2515AA9500C6C889 /* NSDictionary+Extension.m in Sources */,
+				063EB2B42515AA9500C6C889 /* Collection+SafeSubscript.swift in Sources */,
+				063EB2BB2515AA9500C6C889 /* UIDevice+Extension.swift in Sources */,
+				063EB2902515A8B600C6C889 /* MixerReactModule.swift in Sources */,
+				063EB29D2515A9EF00C6C889 /* RNCommon.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				063EB2BD2515AA9500C6C889 /* UIAlertController+Window.m in Sources */,
+				063EB2B82515AA9500C6C889 /* StoryboardExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +431,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.name.ReactNativeApp;
 				PRODUCT_NAME = ReactNativeApp;
+				SWIFT_OBJC_BRIDGING_HEADER = "Common/React/ReactNativeApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -316,6 +455,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.name.ReactNativeApp;
 				PRODUCT_NAME = ReactNativeApp;
+				SWIFT_OBJC_BRIDGING_HEADER = "Common/React/ReactNativeApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

@@ -5,7 +5,19 @@
     "ios": "react-native run-ios",
     "web": "expo start --web",
     "start": "react-native start",
-    "test": "jest"
+    "build:ios": "react-native bundle --entry-file='index.js' --bundle-output='./ios/ReactNativeApp/main.jsbundle' --dev=false --platform='ios' --assets-dest='./ios'",
+    "build:android": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res",
+    "test": "jest --colors --testNamePattern --updateSnapshot",
+    "test:debug": "node --inspect node_modules/.bin/jest --colors --testNamePattern --updateSnapshot --runInBand",
+    "test:debugW": "node --inspect node_modules/.bin/jest --colors --testNamePattern --updateSnapshot --runInBand --watch",
+    "test:debugger": "node --inspect-brk node_modules/.bin/babel-jest  --colors --testNamePattern --updateSnapshot --runInBand",
+    "test:report": "jest --colors --coverage --testNamePattern --updateSnapshot",
+    "android:build": "cd android && rm -rf app/src/main/res/drawable-*/node_modules* && rm -rf app/src/main/res/drawable-*/src_images* && ./gradlew assembleRelease",
+    "android:install": "cd android && ./gradlew assembleRelease && ./gradlew installRelease",
+    "android:devices": "$ANDROID_HOME/platform-tools/adb devices",
+    "android:logcat": "$ANDROID_HOME/platform-tools/adb logcat *:S ReactNative:V ReactNativeJS:V",
+    "android:shake": "$ANDROID_HOME/platform-tools/adb devices | grep '\\t' | awk '{print $1}' | sed 's/\\s//g' | xargs -I {} $ANDROID_HOME/platform-tools/adb -s {} shell input keyevent 82"
+ 
   },
   "dependencies": {
     "expo": "~38.0.9",
